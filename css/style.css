@@ -64,18 +64,17 @@ body {
 h2 {
   font-family: "Teko", sans-serif;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 65px;
   color: white;
-  background-color: black;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
   padding-right: 2%;
-  text-align: right; }
+  text-align: center; }
 
 h1 {
   font-family: "MutiaraVintage", sans-serif;
-  font-size: 80px;
+  font-size: 90px;
   color: white;
   z-index: 1;
   position: relative;
@@ -162,10 +161,7 @@ a.btn {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -ms-flex-item-align: end;
+  align-items: center;
   align-self: flex-end; }
 
 .text-stroke {
@@ -177,8 +173,7 @@ a.btn {
   transform: translate(-50%, -50%);
   width: 100%;
   font-family: "ProximaNova-Bold", sans-serif;
-  font-size: 40px;
-  background-color: black;
+  font-size: 50px;
   color: white;
   text-align: center; }
   .text-stroke span {
@@ -418,6 +413,7 @@ a.btn {
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
+    padding: 0 20px;
     padding-top: 50px; }
     .photo-block .couch-name.m-border-right {
       border-right: 5px solid #032966; }
@@ -446,6 +442,9 @@ a.btn {
       text-align: center;
       text-transform: uppercase;
       line-height: 1; }
+    .photo-block .couch-name p {
+      text-align: center;
+      margin-top: 25px; }
 
 @media (max-width: 1500px) {
   p {
